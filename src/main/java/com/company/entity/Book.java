@@ -24,4 +24,11 @@ public class Book {
 
     public Book() {
     }
+
+    public Book(Long id, String title, int publishedYear, Author author) {
+        this.id = id;
+        this.title = title;
+        this.publishedYear = publishedYear;
+        this.author = author;
+    }
 }
